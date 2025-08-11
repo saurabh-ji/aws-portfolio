@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saurabh Yadav | AWS Cloud Portfolio</title>
+    <style>
+        :root {
+            --primary: #ff9900;
+            --bg-dark: #0d1117;
+            --card-bg: #161b22;
+            --text-light: #c9d1d9;
+            --text-muted: #8b949e;
+        }
+        * {margin: 0; padding: 0; box-sizing: border-box;}
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: var(--bg-dark);
+            color: var(--text-light);
+        }
+        header {
+            background: var(--card-bg);
+            padding: 20px;
+            text-align: center;
+            border-bottom: 2px solid var(--primary);
+        }
+        header h1 {font-size: 2rem;}
+        header p {color: var(--text-muted);}
+        .container {width: 90%; max-width: 1100px; margin: auto; padding: 20px 0;}
+        .project {
+            background: var(--card-bg);
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.5);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .project:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px rgba(255,153,0,0.5);
+        }
+        .project img {max-width: 100%; border-radius: 8px; margin-bottom: 10px;}
+        .project h2 {color: var(--primary); margin-bottom: 5px;}
+        .project p {color: var(--text-muted);}
+        .project a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 15px;
+            background: var(--primary);
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 6px;
+        }
+        footer {
+            background: var(--card-bg);
+            text-align: center;
+            padding: 15px;
+            border-top: 2px solid var(--primary);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Saurabh Yadav</h1>
+    <p>AWS Certified Cloud Solution Architect | Python Automation | DevOps</p>
+</header>
+
+<div class="container">
+
+    <div class="project">
+        <h2>1. EC2 Auto Start/Stop Scheduler</h2>
+        <img src="ec2-scheduler.png" alt="EC2 Scheduler">
+        <p>Automates EC2 start and stop using Lambda, EventBridge, and Python Boto3.</p>
+        <a href="https://github.com/yourusername/ec2-scheduler" target="_blank">View Project</a>
+    </div>
+
+    <div class="project">
+        <h2>2. AWS Resource Inventory Tool</h2>
+        <img src="inventory-tool.png" alt="Inventory Tool">
+        <p>Lists all AWS resources and stores report in S3 using Lambda & Python.</p>
+        <a href="https://github.com/yourusername/aws-inventory-tool" target="_blank">View Project</a>
+    </div>
+
+    <div class="project">
+        <h2>3. Cloud Cost Tracker</h2>
+        <img src="cost-tracker.png" alt="Cost Tracker">
+        <p>Tracks AWS costs daily and sends reports via SNS Email using Python Boto3.</p>
+        <a href="https://github.com/yourusername/cloud-cost-tracker" target="_blank">View Project</a>
+    </div>
+
+    <div class="project">
+        <h2>4. Serverless Image Resizer</h2>
+        <img src="image-resizer.png" alt="Image Resizer">
+        <p>Resizes images uploaded to S3 using Lambda & Pillow library.</p>
+        <a href="https://github.com/yourusername/serverless-image-resizer" target="_blank">View Project</a>
+    </div>
+
+    <div class="project">
+        <h2>5. Multi-Tier Architecture Deployment</h2>
+        <img src="multi-tier.png" alt="Multi-Tier">
+        <p>Deploys scalable 3-tier architecture on AWS using CloudFormation.</p>
+        <a href="https://github.com/yourusername/multi-tier-architecture" target="_blank">View Project</a>
+    </div>
+
+    <div class="project">
+        <h2>6. S3 Static Website Hosting with CI/CD</h2>
+        <img src="s3-static.png" alt="S3 Website">
+        <p>Static website hosting with S3, CloudFront, and CodePipeline for auto-deploy.</p>
+        <a href="https://github.com/yourusername/s3-static-website" target="_blank">View Project</a>
+    </div>
+
+    <div class="project">
+        <h2>7. AWS Log Monitoring & Alerts</h2>
+        <img src="log-monitoring.png" alt="Log Monitoring">
+        <p>CloudWatch logs monitoring with Lambda alerts via Slack webhook.</p>
+        <a href="https://github.com/yourusername/aws-log-monitoring" target="_blank">View Project</a>
+    </div>
+
+    <div class="project">
+        <h2>8. DynamoDB Backup & Restore Automation</h2>
+        <img src="dynamodb-backup.png" alt="DynamoDB Backup">
+        <p>Automated daily DynamoDB backups to S3 with restore scripts.</p>
+        <a href="https://github.com/yourusername/dynamodb-backup" target="_blank">View Project</a>
+    </div>
+
+</div>
+
+<footer>
+    <p>© 2025 Saurabh Yadav | AWS Cloud Portfolio</p>
+</footer>
+
+</body>
+</html>
+
